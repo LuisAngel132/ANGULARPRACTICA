@@ -1,0 +1,32 @@
+<div>
+    <div *ngFor="let pers of Persona">
+        <table border="2">
+            <tr >
+                <th colspan="4">Nombre</th>
+                <th colspan="4">apellido</th>
+                <th colspan>Edad</th>
+                <th>Sexo</th>
+      
+            </tr>
+            <tr>
+                <td colspan="4">
+                    {{pers.nombre}}
+                </td>
+                <td colspan="4">
+                    {{pers.apellidos}}
+
+                </td>
+                <td>
+                    {{pers.edad}}
+
+                </td>
+                <td>
+                    {{pers.sexo}}
+
+                </td>
+            </tr>
+        </table>
+    <hr>
+    </div>
+    
+</div>
